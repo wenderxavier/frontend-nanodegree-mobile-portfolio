@@ -53,7 +53,14 @@
       </footer>
     </div>
     <script>
-      function logCRP() {
+      (function(w,g){w['GoogleAnalyticsObject']=g;
+      w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
+
+      // Optional TODO: replace with your Google Analytics profile ID.
+      ga('create', 'UA-XXXX-Y');
+      ga('send', 'pageview');
+
+            function logCRP() {
   var t = window.performance.timing,
     dcl = t.domContentLoadedEventStart - t.domLoading,
     complete = t.domComplete - t.domLoading;
@@ -64,15 +71,7 @@
 window.addEventListener("load", function(event) {
   logCRP();
 });
-    </script>
-    
-    <script>
-      (function(w,g){w['GoogleAnalyticsObject']=g;
-      w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
 
-      // Optional TODO: replace with your Google Analytics profile ID.
-      ga('create', 'UA-XXXX-Y');
-      ga('send', 'pageview');
     </script>
 
   </body>
