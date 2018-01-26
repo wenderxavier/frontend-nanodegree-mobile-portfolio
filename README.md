@@ -4,7 +4,7 @@ Your challenge, if you wish to accept it (and we sure hope you will), is to opti
 
 To get started, check out the repository and inspect the code.
 
-#####-> To access Wender's optmized version access https://goo.gl/PX8A1Z
+##### -> To access Wender's optmized version access https://goo.gl/PX8A1Z
 
 ### Getting started
 
